@@ -55,16 +55,16 @@ or run SpringBootTest2Application :
 <img width="500" alt="IntelliJ Run Application" src="https://github.com/user-attachments/assets/e527921c-cf5a-4f02-b039-88d351a4488f" />  
 The application will start on http://localhost:8080.
 
-4. Access H2 Console
-URL: http://localhost:8080/h2-console
-JDBC URL: jdbc:h2:mem:testdb
-Username: sa
-Password: (leave empty)
+4. Access H2 Console :  
+URL: http://localhost:8080/h2-console  
+JDBC URL: jdbc:h2:mem:testdb  
+Username: sa  
+Password: (leave empty)  
 
 ## API Documentation
 Base URL : http://localhost:8080/api/users  
 Endpoints :  
-POST http://localhost:8080/api/users -> Create a new user  
+```POST http://localhost:8080/api/users``` -> Create a new user  
 ### Create User (POST)
 ```json
 {
@@ -74,9 +74,12 @@ POST http://localhost:8080/api/users -> Create a new user
     "phoneNumber": "0123456789",
     "gender": "Male"
 }
-GET http://localhost:8080/api/users -> Get the list of all registered users  
-GET http://localhost:8080/api/users/{id} -> Get the details of a registered user   
-DELETE http://localhost:8080/api/users/{id} -> Delete a registered user  
+```
+```GET http://localhost:8080/api/users``` -> Get the list of all registered users  
+```GET http://localhost:8080/api/users/{id}``` -> Get the details of a registered user   
+Example : ```GET http://localhost:8080/api/users/1```  
+```DELETE http://localhost:8080/api/users/{id}``` -> Delete a registered user  
+Example : ```DELETE http://localhost:8080/api/users/1```  
 
 ## Validation Rules
 ### Username
