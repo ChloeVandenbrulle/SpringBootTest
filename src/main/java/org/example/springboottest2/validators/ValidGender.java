@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = GenderValidator.class)
 public @interface ValidGender {
-    String message() default "Gender must be either 'M', 'F' or 'OTHER'";
+    String message() default "Gender must be either 'Male', 'Female' or 'Other'";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }

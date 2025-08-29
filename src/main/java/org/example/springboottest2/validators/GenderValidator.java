@@ -10,6 +10,6 @@ public class GenderValidator implements ConstraintValidator<ValidGender, GenderE
         if (genderEnum == null) {
             return true;
         }
-        return genderEnum.equals(GenderEnum.M) || genderEnum.equals(GenderEnum.F);
+        return genderEnum.equals(GenderEnum.Male) || genderEnum.equals(GenderEnum.Female) || genderEnum.equals(GenderEnum.Other);
     }
 }
