@@ -12,7 +12,7 @@ Seuls les résidents français adultes sont acceptés.
 La date de naissance d'un utilisateur doit respecter le format correct pour une date : yyyy-mm-dd, doit être dans le passé et doit faire en sorte que les utilisateurs soient majeurs (18+).  
 Le pays de résidence d'un utilisateur doit être 'France' ou une variante telle que 'FR', 'Fr', 'FRANCE', ...  
 Un numéro de téléphone doit respecter le format correct pour un numéro de téléphone.  
-Un genre doit être soit Homme, Femme ou Autre.
+Un genre doit être soit Male, Female ou Other.
 
 ## Fonctionnalités
 * Validation pour les résidents français adultes uniquement
